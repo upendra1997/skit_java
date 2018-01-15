@@ -1,0 +1,38 @@
+What is the relationship between programming and classes present in your program.
+	
+	Usually there is no relationship between java program file name and classes present in this program only if there is no public class.
+	If any class is public then name of this program should be same as this public class.
+	Any program can contain only one public class
+	After compilation a number of *.class file is creatd(which were present in the program).
+	A program can cotain more than one main method. 
+	But normally we save the program with the same name of the class present in the program, that's why normally we write one class in one program.
+
+	.\skit.java:6: error: class ab is public, should be declared in a file named ab.java
+	public class ab{
+	       ^
+	1 error
+
+
+System -class
+out -static output stream object
+prinln -method
+
+
+Scanner sc = new Scanner(System.in)
+
+javap java.lang.System
+javap java.util.Scanner
+
+java.lang.Scanner -fully qualified name
+
+If there is a recursive class then inner class files will be prepended with '$' sign.
+
+if one of the operand of '+' operator is String then it act as a concatenation operator.
+
+length is a variable which hold the length of a particular array.
+
+Whenever we try to print an object reference it simply call toString Method inherited from Object parent class(java.lang.Object).
+public java.lang.String toString();
+<Class_Name>@<HashCode>
+
+Constructor does not return any value(not even void).
