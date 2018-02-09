@@ -1,0 +1,24 @@
+We are not able to create the object of ny interface because, interface contain only the specification of the method not implemented.
+Abstract Class: 
+				These are classes which can't be instantiated
+                (i.e. We are not able to craete object of any abstract class).
+                These classes can be extended.
+                In a abstract class we provide a constructor whereas in interface we don't specify a constructor.
+                Abstract class constructor simply work for child class object whenever it is created.
+                If we specify our own constructor then default constructor is not created.
+                child class automatically call its parent class default constructor.
+                At least one method of child of abstract class must be overriden to make it non-abstarct.
+
+In java function signature consist function name and arguments only.
+
+Constructor:
+			Inside contructor we can call only one constructor that's why ths() or super() must be first stateent of constructor;
+			Inside ny constructor, explicitely we can only call one construtor, but indirectly we can call any number of constructors;
+			First statement of any constructor should be a call to super class super() Implicitely.
+
+
+Relationship: 1) IS-A  2) HAS-A
+
+Inheritance: (type of IS-A)
+			for method to be 
+				
